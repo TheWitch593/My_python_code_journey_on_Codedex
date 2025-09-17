@@ -1,7 +1,6 @@
 from google import genai
 
 while True and tries < 10: # limit to 10 tries
-    # increment tries counter
     tries += 1
 
     print("\nGemini: How can I assist you? \n")
@@ -16,7 +15,6 @@ while True and tries < 10: # limit to 10 tries
 
     print("\nGemini: " + response.text)
 
-    # ask if the user wants to continue
     print("Gemini: Do you want to ask something else? (yes/no)")
     ans = input("\n You: ")
     # Based on the user answer, continue or break the loop
