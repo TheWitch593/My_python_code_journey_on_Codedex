@@ -7,7 +7,7 @@ client = genai.Client()
 
 tries = 0
 
-while tries < 10:  # limit to 10 tries
+while tries < 10:  # limit to 10---------------- tries
     tries += 1
     print("\nGemini: How can I assist you? \n")
 
